@@ -1,9 +1,9 @@
 import os
 from datetime import date
 
-DATABASE_NAME = "US_VISA"
+DATABASE_NAME = "usvisa1"
 
-COLLECTION_NAME = "visa_data"
+COLLECTION_NAME = "visa_dataset1"
 
 MONGODB_URL_KEY = "MONGODB_URL"
 
@@ -34,7 +34,7 @@ REGION_NAME = "us-east-1"
 """
 Data Ingestion related constant start with DATA_INGESTION VAR NAME
 """
-DATA_INGESTION_COLLECTION_NAME: str = "visa_data"
+DATA_INGESTION_COLLECTION_NAME: str = "visa_dataset1"
 DATA_INGESTION_DIR_NAME: str = "data_ingestion"
 DATA_INGESTION_FEATURE_STORE_DIR: str = "feature_store"
 DATA_INGESTION_INGESTED_DIR: str = "ingested"
@@ -73,7 +73,7 @@ MODEL_TRAINER_MODEL_CONFIG_FILE_PATH: str = os.path.join("config", "model.yaml")
 MODEL EVALUATION related constant 
 """
 MODEL_EVALUATION_CHANGED_THRESHOLD_SCORE: float = 0.02
-MODEL_BUCKET_NAME = "usvisa-model2024"
+MODEL_BUCKET_NAME = "usvisa-model8661"
 MODEL_PUSHER_S3_KEY = "model-registry"
 
 
